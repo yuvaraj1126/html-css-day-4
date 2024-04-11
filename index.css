@@ -1,0 +1,40 @@
+.nav-wrapper{
+display: flex;
+padding: 5px;
+justify-content: space-between ;
+background-color:beige;
+}
+.brand{
+    width: 80px;
+    display: flex;
+    padding: 10px;
+    background-color: beige;
+}
+
+.left-container{
+    display: flex;
+    justify-content: flex-start;
+    width: 40%;
+    
+}
+.right-container{
+    display: flex;
+    justify-self: flex-end;
+}
+.right-container div{
+    padding: 20px;
+display: flex;
+align-items: center;
+cursor: pointer;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: italic;
+font-weight: bold;
+font-size: larger;
+text-decoration: underline;
+color: cadetblue;
+}
+
+.nav-icon{
+   display: flex;
+   align-items: center;
+}
